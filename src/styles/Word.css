@@ -1,0 +1,13 @@
+.colorTA {
+  color: #01579b;
+  text-shadow: 0.1px 0.1px 1px;
+}
+
+.colored {
+  color: #FF4500;
+  text-shadow: 0.1px 0.1px 1px;
+}
+
+.word{
+  transition: .5s;
+}

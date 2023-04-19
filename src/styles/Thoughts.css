@@ -1,0 +1,51 @@
+
+#ThinkAloud .thoughts{
+  color: #9e9e9e;
+  width: 350px;
+}
+
+
+#ThinkAloud .thoughts:after{
+  content: ' ';
+  display: block;
+  height: 25px; /* 5px + 5px = 10px */
+}
+
+#ThinkAloud .thoughts li{
+  list-style: none;
+  font-size: 12px;
+  padding: 6px 12px;
+  text-size-adjust: 100%;
+  transition: .5s;
+  hyphens: auto;
+  font-family: Verdana, Geneva, Tahoma, Arial, sans-serif;
+}
+
+#ThinkAloud .thoughts .hovered{
+  color: #FF4500;
+}
+
+#ThinkAloud .thoughts li.active{
+  font-size: 14px;
+  background-color: #ecf6fd;
+  color: black;
+  margin: 12px 0px;
+  cursor: pointer;
+  position: relative;
+  border: 1px solid lightgrey;
+}
+
+#ThinkAloud .thoughts li.active:hover{
+  border-color: #40a9ff;
+}
+
+#ThinkAloud .thoughts li.active:hover .next{
+  color: #40a9ff;
+}
+
+#ThinkAloud .thoughts .next{
+  position: absolute;
+  right:10px;
+  bottom: 5px;
+  color: grey;
+}

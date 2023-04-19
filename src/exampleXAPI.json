@@ -1,0 +1,86 @@
+{
+  "nextLine": {
+    "actor": {
+        "account": {
+            "name": "",
+            "homePage": ""
+        },
+        "objectType": "Agent"
+    },
+    "verb": {
+        "id": "http://adlnet.gov/expapi/verbs/progressed",
+        "display": {
+            "en-US": "progressed"
+        }
+    },
+    "object": {
+        "id": "http://closereading.org/soliloquy",
+        "definition": {
+            "name": {
+                "en-US": "Soliloquy"
+            },
+            "description": {
+                "en-US": "Visualizes thoughts of reading"
+            },
+            "type": "http://activitystrea.ms/schema/1.0/application"
+        },
+        "objectType": "Activity"
+    }
+  },
+  "start": {
+    "actor": {
+        "account": {
+            "name": "",
+            "homePage": ""
+        },
+        "objectType": "Agent"
+    },
+    "verb": {
+        "id": "http://activitystrea.ms/schema/1.0/start",
+        "display": {
+          "en": "started"
+        }
+    },
+    "object": {
+        "id": "http://closereading.org/soliloquy",
+        "definition": {
+            "name": {
+                "en-US": "Soliloquy"
+            },
+            "description": {
+                "en-US": "Visualizes thoughts of reading"
+            },
+            "type": "http://activitystrea.ms/schema/1.0/application"
+        },
+        "objectType": "Activity"
+    }
+  },
+  "complete": {
+    "actor": {
+        "account": {
+            "name": "",
+            "homePage": ""
+        },
+        "objectType": "Agent"
+    },
+    "verb": {
+        "id": "http://adlnet.gov/expapi/verbs/completed",
+        "display": {
+            "en-US": "completed"
+        }
+    },
+    "object": {
+        "id": "http://closereading.org/soliloquy",
+        "definition": {
+            "name": {
+                "en-US": "Soliloquy"
+            },
+            "description": {
+                "en-US": "Visualizes thoughts of reading"
+            },
+            "type": "http://activitystrea.ms/schema/1.0/application"
+        },
+        "objectType": "Activity"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "warning": "This file is in public and may not hot reload",
+  "commaDelay": 200,
+  "lineDelay": 800,
+  "wordDelay": 425,
+  "text": {
+    "title": "In a Station of the Metro",
+    "lines": ["The apparition of these faces in the crowd:", "Petals on a wet, black bough."]
+  },
+  "linesTA": [{
+    "order": [1, 4],
+    "tooltips": [{
+      "lnOrder": 4,
+      "range": [1, 3],
+      "content": "This thought appears on the second reading of the line"
+    }]
+    }, {
+    "order": [2],
+    "tooltips": [{
+      "lnOrder": 2,
+      "range": [2, 5],
+      "content": "This thought appears on the first reading of line"
+    }]
+  }, {
+    "ref": "On a white heal-all, holding up a moth",
+    "order": [3]
+  }
+  ]
+}
