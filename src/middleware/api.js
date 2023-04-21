@@ -2,11 +2,11 @@
 const callbacks = {}
 
 //Initalize window object
-window.thinkAloud = {};
+window.soliloquy = {};
 
 //Attaches callback to object for reference
-window.thinkAloud.on = (action, callback) => callbacks[action] = callback;
-window.thinkAloud.onComplete = (callback) => callbacks["onComplete"] = callback;
+window.soliloquy.on = (action, callback) => callbacks[action] = callback;
+window.soliloquy.onComplete = (callback) => callbacks["onComplete"] = callback;
 
 export const listeners = store => next => action => {
   if(!action) return;

@@ -14,7 +14,7 @@ class ThinkAloud extends Component {
 
   componentDidMount() {
     //Mount api call to start thinkaloud
-    window.thinkAloud.start = this.startThinkaloud;
+    window.soliloquy.start = this.startThinkaloud;
     
     var {title, lines} = this.props.data.text;
     this.lines = lines.slice();

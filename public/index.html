@@ -41,12 +41,12 @@
       .then(response => response.json())
       .then(json => {
         ready(function(){
-          thinkAloud.renderThinkAloud("ta", json);
+          soliloquy.renderThinkAloud("ta", json);
 
-          thinkAloud.on("onComplete", (action, state) => {
+          soliloquy.on("onComplete", (action, state) => {
             console.log(state);
           });
-          thinkAloud.on("ALL", (action, state) => {
+          soliloquy.on("ALL", (action, state) => {
             console.log(action);
           });
         });

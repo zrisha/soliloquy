@@ -21,25 +21,7 @@ import 'antd/es/progress/style/index.css';
 
 const reduxDevTools = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 
-//Adds current script information to ta object
-window.thinkAloud.currentScript = window.document.currentScript;
-
-window.thinkAloud.serverUrl = getServerUrl(window.thinkAloud.currentScript.src);
-
-if(process.env.NODE_ENV !== "development" && window.thinkAloud.serverUrl){
-  var link = document.createElement("link");
-  link.href = window.thinkAloud.serverUrl + "/code/ThinkAloud.css";
-  link.type = "text/css";
-  link.rel = "stylesheet";
-  link.media = "screen,print";
-  window.document.getElementsByTagName( "head" )[0].appendChild(link);
-}else if(process.env.NODE_ENV === "development"){
-  var style =  document.createElement("link");
-  style.appendChild(document.createTextNode(cssImports));
-  window.document.getElementsByTagName( "head" )[0].appendChild(style);
-}
-
-window.thinkAloud.renderThinkAloud = async function(id, data, params = {}){
+window.soliloquy.renderThinkAloud = async function(id, data, params = {}){
   let taData;
   if(!id || !data){
     console.log("Missing parameter: renderThinkAloud requires DOM id and config")
@@ -72,7 +54,7 @@ window.thinkAloud.renderThinkAloud = async function(id, data, params = {}){
     return;
   }
 
-  window.thinkAloud.domTarget = domTarget;
+  window.soliloquy.domTarget = domTarget;
 
   //Add uuid if no user
   if(!params.name)

@@ -49,7 +49,7 @@ class TooltipTA extends Component {
           placement="right"
           visible={this.state.visible}
           overlayClassName="tooltipTA"
-          getPopupContainer = {() => window.thinkAloud.domTarget}
+          getPopupContainer = {() => window.soliloquy.domTarget}
         >
             {this.props.children}
         </Popover>
