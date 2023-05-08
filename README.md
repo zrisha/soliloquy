@@ -6,6 +6,8 @@ This repo is a work-in-progress. I hope to update it more in the near future.
 
 If you are in a hurry, run `npm start` for a brief demo. Examples of how to use Soliloquy on a webpage is in the `public` folder. 
 
+### Paper
+[[LINK]](https://doi.org/10.1145/3544548.3581374) Read about Soliloquy in our CHI Paper
 
 ## Adding to Webpage
 
