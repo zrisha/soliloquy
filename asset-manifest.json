@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/soliloquy/static/css/main.d966e1d0.chunk.css",
+    "main.js": "/soliloquy/static/js/main.eb88b34b.chunk.js",
+    "main.js.map": "/soliloquy/static/js/main.eb88b34b.chunk.js.map",
+    "runtime-main.js": "/soliloquy/static/js/runtime-main.6ebb7a79.js",
+    "runtime-main.js.map": "/soliloquy/static/js/runtime-main.6ebb7a79.js.map",
+    "static/css/2.d019f296.chunk.css": "/soliloquy/static/css/2.d019f296.chunk.css",
+    "static/js/2.4eacf7f6.chunk.js": "/soliloquy/static/js/2.4eacf7f6.chunk.js",
+    "static/js/2.4eacf7f6.chunk.js.map": "/soliloquy/static/js/2.4eacf7f6.chunk.js.map",
+    "index.html": "/soliloquy/index.html",
+    "static/css/2.d019f296.chunk.css.map": "/soliloquy/static/css/2.d019f296.chunk.css.map",
+    "static/css/main.d966e1d0.chunk.css.map": "/soliloquy/static/css/main.d966e1d0.chunk.css.map",
+    "static/js/2.4eacf7f6.chunk.js.LICENSE.txt": "/soliloquy/static/js/2.4eacf7f6.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6ebb7a79.js",
+    "static/css/2.d019f296.chunk.css",
+    "static/js/2.4eacf7f6.chunk.js",
+    "static/css/main.d966e1d0.chunk.css",
+    "static/js/main.eb88b34b.chunk.js"
+  ]
+}

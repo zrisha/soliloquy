@@ -1,0 +1,123 @@
+{
+  "commaDelay": 200,
+  "lineDelay": 800,
+  "wordDelay": 425,
+  "text": {
+    "author": {
+      "first": "Robert",
+      "last": "Frost"
+    },
+    "title": "Design",
+    "lines": ["I found a dimpled spider, fat and white,", "On a white heal-all, holding up a moth", "Like a white piece of rigid satin cloth—", "Assorted characters of death and blight", "Mixed ready to begin the morning right,", "Like the ingredients of a witches’ broth—", "A snow-drop spider, a flower like a froth,", "And dead wings carried like a paper kite.", "", "What had that flower to do with being white,", "The wayside blue and innocent heal-all?", "What brought the kindred spider to that height,", "Then steered the white moth thither in the night?", "What but design of darkness to appall?—", "If design govern in a thing so small."]
+  },
+  "linesTA": [{
+    "ref": "Design",
+    "order": [1]
+  }, {
+    "ref": "I found a dimpled spider, fat and white,",
+    "order": [2, 5],
+    "tooltips": [{
+      "lnOrder": 5,
+      "range": [1, 5],
+      "content": "Hmmm the speaker might be taking a walk and stumbled upon the spider?"
+    }]
+  }, {
+    "ref": "On a white heal-all, holding up a moth",
+    "order": [3]
+  }, {
+    "ref": "Like a white piece of rigid satin cloth—",
+    "order": [4],
+    "tooltips": [{
+      "lnOrder": 4,
+      "range": [3],
+      "content": "Third time he repeats 'white.' He emphasizes all three are white."
+    }]
+  }, {
+    "ref": "Assorted characters of death and blight",
+    "order": [6, 9],
+    "tooltips": [{
+      "lnOrder": 9,
+      "range": [4, 6],
+      "content": "Grimmer words here as well, the speaker seems frightened..."
+    }]
+  }, {
+    "ref": "Mixed ready to begin the morning right,",
+    "order": [7]
+  }, {
+    "ref": "Like the ingredients of a witches’ broth—",
+    "order": [8],
+    "tooltips": [{
+      "lnOrder": 8,
+      "range": [6, 7],
+      "content": "Seems to imply something evil and twisted"
+    }]
+  }, {
+    "ref": "A snow-drop spider, a flower like a froth,",
+    "order": [10, 12],
+    "tooltips": [{
+      "lnOrder": 12,
+      "range": [2, 3],
+      "content": "They seem stuck in his head... He keeps going over them. That happens to me sometimes when a thought is bugging me."
+    }]
+  }, {
+    "ref": "And dead wings carried like a paper kite.",
+    "order": [11],
+    "tooltips": [{
+      "lnOrder": 11,
+      "range": [5, 8],
+      "content": "Here's the moth, flower, and spider compared again, but not so scary this time."
+    }]
+  }, {
+    "ref": "What had that flower to do with being white,",
+    "order": [13],
+    "tooltips": [{
+      "lnOrder": 13,
+      "range": [1, 6],
+      "content": "Seems disturbed, as if wondering \"how could this be possible?\""
+    }]
+  }, {
+    "ref": "The wayside blue and innocent heal-all?",
+    "order": [14],
+    "tooltips": [{
+      "lnOrder": 14,
+      "range": [6],
+      "content": "The footnote said a heal-all flower is normally blue, makes it even more rare..."
+    }]
+  }, {
+    "ref": "What brought the kindred spider to that height,",
+    "order": [15, 17],
+    "tooltips": [{
+      "lnOrder": 17,
+      "range": [7, 8],
+      "content": "The speaker's mind is calculating all the rare circumstances for this event to occur."
+    }]
+  }, {
+    "ref": "Then steered the white moth thither in the night?",
+    "order": [16],
+    "tooltips": [{
+      "lnOrder": 16,
+      "range": [1, 2],
+      "content": "Something is coloring, steering, and arranging."
+    }]
+  }, {
+    "ref": "What but design of darkness to appall?—",
+    "order": [18, 20],
+    "tooltips": [{
+      "lnOrder": 20,
+      "range": [1, 5],
+      "content": "What else but darkness would design something like this? Then an em-dash, like the thought trails off."
+    }]
+  }, {
+    "ref": "If design govern in a thing so small.",
+    "order": [19, 21],
+    "tooltips": [{
+      "lnOrder": 19,
+      "range": [2],
+      "content": "Here’s the title for emphasis, seems like this is the main problem of the poem..."
+    }, {
+      "lnOrder": 21,
+      "range": [5, 8],
+      "content": "Then he seems to kind of take it back. Says the scene is too small to count."
+    }]
+  }]
+}
